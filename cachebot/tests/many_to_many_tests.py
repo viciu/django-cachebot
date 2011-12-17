@@ -1,4 +1,4 @@
-from cachebot.models import ManyModel
+from cachebot.test_models import ManyModel
 from cachebot.tests.base_tests import BasicCacheTests, RelatedCacheTests
 
 class BasicManyToManyCacheTests(BasicCacheTests):

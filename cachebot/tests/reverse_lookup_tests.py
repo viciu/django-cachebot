@@ -1,4 +1,4 @@
-from cachebot.models import FirstModel
+from cachebot.test_models import FirstModel
 from cachebot.tests.base_tests import RelatedCacheTests, ExtraRelatedCacheTests
 
 class ReverseRelatedCacheTests(RelatedCacheTests):

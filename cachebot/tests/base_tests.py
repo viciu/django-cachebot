@@ -4,7 +4,7 @@ from django.db.models.query import ValuesQuerySet
 from django.db.models import Q
 from django.test import TestCase
 
-from cachebot.models import FirstModel, SecondModel, ThirdModel, GenericModel, ManyModel
+from cachebot.test_models import FirstModel, SecondModel, ThirdModel, GenericModel, ManyModel
 from cachebot.utils import flush_cache
 
 class BaseTestCase(TestCase):
